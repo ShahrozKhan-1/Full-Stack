@@ -1,24 +1,29 @@
-import "./header.css"
+import "./header.css";
+import reactImg from "../../assets/react-core-concepts.png";
 
-function Header(){
-    return(
-      <>
-        <header>
-          <img src="src/assets/react-core-concepts.png" alt="Stylized atom" />
-          <h1>React Essentials</h1>
-          <p>
-            Fundamental React concepts you will need for almost any app you are
-            going to build!
-          </p>
-        </header>
-      </>
-    )
+const reactDescriptions = ["Fundamental", "Crucial", "Core"];
+
+function genRandomInt(max) {
+  return Math.floor(Math.random() * (max + 1));
 }
-  
+const description = reactDescriptions[genRandomInt(2)];
+
+function Header() {
+  return (
+    <>
+      <header>
+        <img src={reactImg} alt="Stylized atom" />
+        <h1>React Essentials</h1>
+        <p>
+          {description} React concepts you will need for almost any app you are
+          going to build!
+        </p>
+        <main>
+          <h2>Time to get started!</h2>
+        </main>
+      </header>
+    </>
+  );
+}
+
 export default Header;
-
-
-<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sequi ex eaque quidem cum nemo 
-  ipsam sapiente ratione expedita explicabo at libero praesentium necessitatibus incidunt minima 
-  mollitia distinctio, quisquam, voluptas consequatur eius veniam dolorem totam, aspernatur sed? 
-  Ducimus modi repellendus incidunt, quod eligendi sapiente culpa a repellat nulla, excepturi fugit.</h1>
