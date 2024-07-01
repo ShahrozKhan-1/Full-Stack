@@ -1,0 +1,30 @@
+.main-card{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 30%;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.inner-card{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 0px 15px;
+    border-radius: 10px;
+    align-items: center;
+    margin-right: 15px;
+}
+.text-bold{
+    font-weight: 600;
+    font-size: large;
+}
+.price{
+    background-color: rgb(83, 0, 128);
+    border-radius: 15px;
+    padding: 0px 5px;
+    position: absolute;
+    right: 960px;
+}
