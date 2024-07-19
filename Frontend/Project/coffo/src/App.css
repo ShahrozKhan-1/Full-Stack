@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.AppContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #3b3b3b;
+  text-transform: uppercase;
+}

@@ -1,0 +1,36 @@
+.footer-container{
+    background-color: #1d1d1d;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon li {
+    margin: 50px 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.footer-container .bi:hover{
+    color: red;
+}
+.footer-container .bi{
+    color: white;
+}
+.info .bi{
+    margin-left: 50px;
+}
+.footer-copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f01c1c;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+}
