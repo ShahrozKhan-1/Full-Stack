@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { useLocation } from "react-router-dom";
 import logo from "./logo.png";
-import Button from "react-bootstrap/Button";
 import * as icons from "react-bootstrap-icons";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -74,8 +73,6 @@ function CoffoNavbar() {
                 <icons.Person size={25} className="mx-2" />
                 Login
               </div>
-              {/* <Button variant="outline-success me-5">Login</Button>{" "} */}
-              {/* <Button variant="outline-danger">Search</Button>{" "} */}
               <div className="nav-icon">
                 <icons.Search size={25} className="mx-2" />
                 Search

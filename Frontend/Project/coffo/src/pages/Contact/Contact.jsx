@@ -33,7 +33,7 @@ export default function Contact() {
           }}
         >
           {({ errors, touched }) => (
-            <Form className="formff">
+            <Form className="contact-form">
               <Field name="Name" placeholder="Your Name" className="mail_text" type="text" size={50} />
               {errors.Name && touched.Name ? (
                 <div>{errors.Name}</div>
