@@ -2,3 +2,25 @@
     display: flex;
     flex-direction: column;
 }
+.About-1{
+    margin-top: -40px;
+}
+.Coffees-1{
+    margin-top: -150px;
+}
+.Contact-1{
+    margin-top: -100px;
+}
+
+
+@media (max-width: 768px) {
+    .Coffees-1 {
+        margin-top: -80px;
+    }
+}
+
+@media (max-width: 820px) {
+    .Coffees-1 {
+        margin-top: -80px;
+    }
+}

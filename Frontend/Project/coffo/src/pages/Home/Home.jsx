@@ -10,10 +10,21 @@ function Home({style}) {
 
   return (
     <div className="home-container">
-      <Hero />
-      <About />
-      <Coffees />
-      <Contact />
+      <div className="Hero-1">
+        <Hero />
+      </div>
+
+      <div className="About-1">
+        <About />
+      </div>
+
+      <div className="Coffees-1">
+        <Coffees />
+      </div>
+
+      <div className="Contact-1">
+        <Contact />
+      </div>
     </div>
   );
 }
