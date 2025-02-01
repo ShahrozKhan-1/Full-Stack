@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState } from "react";
-import CoffoNavbar from "./components/Navbar/Navbar";
+import CoffoNavbar from "./components/navbar/navbar";
 import Home from "./pages/Home/Home";
 import Blog from "./pages/Blog/Blog";
 import Contact from "./pages/Contact/Contact";
