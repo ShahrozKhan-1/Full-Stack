@@ -4,7 +4,7 @@ from .views import *
 
 urlpatterns = [
     path('add/', addtodo),
-    path('see/', seetodo),
+    path('read/', seetodo),
     path('update/<int:pk>/', updatetodo),
     path('delete/<int:pk>/', deletetodo),
     
